@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 public class FibonacciSeries
 {
-	@Test
-	public void main()
+	
+	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
 

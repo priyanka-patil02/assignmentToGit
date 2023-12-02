@@ -11,8 +11,7 @@ public class TemperatureConversion
 		  float fahrenheit;
 		  float kelvin; 
 		  final float deg = (float)1.8; 
-		  final float
-		  celDeg=32; 
+		  final float celDeg=32; 
 		  final float kel=273;
 		  Scanner scan = new Scanner(System.in);
 		  

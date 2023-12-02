@@ -8,11 +8,16 @@ public class TemperatureConversion
 	public static void main(String[] args)
 	{
 		
-		  double fahrenheit; double kelvin; final double deg = 1.8; final double
-		  celDeg=32; final double kel=273; Scanner scan = new Scanner(System.in);
+		  float fahrenheit;
+		  float kelvin; 
+		  final float deg = (float)1.8; 
+		  final float
+		  celDeg=32; 
+		  final float kel=273;
+		  Scanner scan = new Scanner(System.in);
 		  
-		  System.out.println("Enter temperature in Celcius : "); double celcius =
-		  scan.nextDouble();
+		  System.out.println("Enter temperature in Celcius : "); 
+		  float celcius =scan.nextFloat();
 		  
 		  fahrenheit = (deg * celcius) + celDeg;
 		  

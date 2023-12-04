@@ -40,7 +40,7 @@ public class ObjectOfClasses
 		
 		
 		Toys ty= new Toys();
-		ty.name="Doll";
+		ty.name="Teddt bear";
 		ty.material="Rubber";
 		ty.weight=50;
 		ty.colour="Pink";
@@ -95,20 +95,64 @@ public class ObjectOfClasses
 		
 		
 		
+		Books bk = new Books();
+		
+		bk.name="Novel";
+		bk.weight=200;
+		bk.pages=500;
+		
+		bk.toRead("is used to read.");
+		System.out.println("Book weight = "+bk.weight);
+		System.out.println("Book pages = "+bk.pages);
+		
+		System.out.println("*********************************** ");
+		
+
+	
+		Clock clk = new Clock();
+		
+		clk.name="Titan";
+		clk.material= "Glass";
+		clk.shape="Round";
+		clk.numbers=12;
+		
+		clk.toShowTime("is best clock company.");
+		
+		System.out.println("Watch material = "+clk.material);
+		System.out.println("Watch shape = "+clk.shape);
+		System.out.println("Watch numbers = "+clk.numbers);
+		
+		System.out.println("*********************************** ");
 		
 		
 		
+		Fan fn = new Fan();
+		
+		fn.name="Crompton";
+		fn.material="Iron";
+		fn.noOfBlades= 3;
+		fn.weight=500;
+		
+		fn.circulateAir("has best celling fans");
 		
 		
+		System.out.println("Fan material = "+fn.material);
+		System.out.println("Fan blades = "+fn.noOfBlades);
+		System.out.println("Fan weight = "+fn.weight);
+		System.out.println("*********************************** ");
 		
 		
+		Pen pn = new Pen();
+		pn.name="Linc";
+		pn.height=7;
+		pn.width=1;
+		pn.shape="Round";
 		
-		
-		
-		
-		
-		
-		
+		pn.toWrite("is good pen.");
+		System.out.println("Pen height = "+pn.height);
+		System.out.println("Pen width = "+pn.width);
+		System.out.println("Pen shape = "+pn.shape);
+		System.out.println("*********************************** ");
 		
 
 	}

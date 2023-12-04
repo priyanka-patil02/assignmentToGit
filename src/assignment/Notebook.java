@@ -91,7 +91,7 @@ package assignment;
 	
 	}
 	
-	class clock
+	class Clock
 	{
 		String name;
 		int numbers;
@@ -122,7 +122,6 @@ package assignment;
 		String name;
 		double height;
 		double width;
-		double weight;
 		String shape;
 		
 		

@@ -5,163 +5,108 @@ public class ObjectOfClasses
 
 	public static void main(String[] args) 
 	{
-		class Notebook
-		{
-			double length;
-			double width;
-			int pages;
-			String size;
-			String colour;
-			
-			void toWrite(String content)
-			{
-				
-			}
-		}
+		
+		Notebook nb = new Notebook();
+		nb.name= "Navneet";
+		nb.length= 12;
+		nb.pages=150;
+		nb.size="A4";
+		nb.colour= "Blue";
+		
+		nb.toWrite("Notebook is used to write notes.");
+		System.out.println("Notebook Length = "+nb.length);
+		System.out.println("Notebook Pages = "+nb.pages);
+		System.out.println("Notebook Size = "+nb.size);
+		System.out.println("Notebook Colour = "+nb.colour);
+		
+		System.out.println("*********************************** ");
 		
 		
-		class Sofa
-		{
-			double length;
-			double height;
-			double capacity;
-			String colour;
-			String material;
-			
-			void toSeat(String content)
-			{
-				
-			}
-		}
 		
-		class Toys
-		{
-			String material;
-			double weight;
-			String texture;
-			String colour;
-			String shape;
-			
-			void toPlay(String content)
-			{
-				
-			}
-			
-		}
+		Sofa sf=new Sofa();
+		sf.capacity=3;
+		sf.name="Wooden";
+		sf.length=3.5;
+		sf.colour="Red";
+		
+		sf.toSeat("Sofa is used to sit");
+		System.out.println("Sofa Colour = "+sf.colour);
+		System.out.println("Sofa Length = "+sf.length);
+		System.out.println("Sofa Capacity = "+sf.capacity);
+		
+		System.out.println("*********************************** ");
 		
 		
-		class Table
-		{
-			double length;
-			double height;
-			String colour;
-			String shape;
-			double weight;
-			
-			void toWrite(String content)
-			{
-				
-			}
 		
-		}
 		
-		class mouse
-		{
-			double length;
-			double height;
-			String colour;
-			String shape;
-			int button;
-			
-			
-			void toCick(String content)
-			{
-				
-			}
-		}
+		Toys ty= new Toys();
+		ty.name="Doll";
+		ty.material="Rubber";
+		ty.weight=50;
+		ty.colour="Pink";
 		
-		class Books
-		{
-			double weight;
-			int pages;
-			double width;
-			
-			void toRead(String content)
-			{
-				
-			}
 		
-		}
+		ty.toPlay("toy is used play.");
+		System.out.println("Toy Colour = "+ty.colour);
+		System.out.println("Toy Length = "+ty.weight);
+		System.out.println("Toy Capacity = "+ty.material);
 		
-		class clock
-		{
-			int numbers;
-			double time;
-			String shape;
-			String material;
-			 
-			void toShowTime(String content)
-			{
-				
-			}
-		}
+		System.out.println("*********************************** ");
 		
-		class Fan
-		{
-			int noOfBlades;
-			String shape;
-			String material;
-			double weight;
-			
-			void circulateAir(String content)
-			{
-				
-			}
-		}
 		
-		class Pen
-		{
-			double height;
-			double width;
-			double weight;
-			String shape;
-			
-			
-			void toWrite(String content)
-			{
-				
-			}
-		}
 		
-		class Mobile
-		{
-			double height;
-			double width;
-			double weight;
-			String shape;
-			String colour;
-			
-			
-			void toCall(String content)
-			{
-				
-			}
-			
-		}
+		Table tb= new Table();
+		tb.shape="Square";
+		tb.length=60;
+		tb.height=30;
+		tb.weight=3;
+		tb.colour="Black";
 		
-		class human
-		{
-			double height;
-			double weight;
-			String colour;
-			String name;
-			int age;
-			
-			void toWalk(String content)
-			{
-				
-			}
-		}
+		tb.toWrite("table is ");
+		System.out.println("Table length = "+tb.length);
+		System.out.println("Table Height = "+tb.height);
+		System.out.println("Table Weight = "+tb.weight);
+		System.out.println("Table Colour = "+tb.colour);
+		
+		
+		System.out.println("*********************************** ");
+		
+		
+		
+		
+		Mouse ms = new Mouse();
+		ms.colour="Black";
+		ms.length=10;
+		ms.height=2;
+		ms.shape="Oval";
+		ms.button=3;
+		
+		ms.toCick("mouse is beautiful");
+		
+		
+		System.out.println("Mouse length = "+ms.length);
+		System.out.println("Mouse Height = "+ms.height);
+		System.out.println("Mouse shape = "+ms.shape);
+		System.out.println("Mouse buttons = "+ms.button);
+		
+		
+		System.out.println("*********************************** ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

@@ -40,7 +40,7 @@ public class ObjectOfClasses
 		
 		
 		Toys ty= new Toys();
-		ty.name="Teddt bear";
+		ty.name="Teddy bear";
 		ty.material="Rubber";
 		ty.weight=50;
 		ty.colour="Pink";
@@ -154,7 +154,24 @@ public class ObjectOfClasses
 		System.out.println("Pen shape = "+pn.shape);
 		System.out.println("*********************************** ");
 		
+		
+		Human hm = new Human();
+		hm.height=5.7;
+		hm.weight=61;
+		hm.colour= "Fair";
+		hm.name="Priyanka";
+		hm.age=30;
+		
 
+		hm.toWalk("walks 2 km daily.");
+		System.out.println("Human height = "+hm.height);
+		System.out.println("Human weight = "+hm.weight);
+		System.out.println("Human colour = "+hm.colour);
+		System.out.println("Human Age = "+hm.age);
+		System.out.println("*********************************** ");
+		
+		
+		
 	}
 
 }

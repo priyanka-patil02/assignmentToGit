@@ -147,7 +147,7 @@ package assignment;
 		
 	}
 	
-	class human
+	class Human
 	{
 		double height;
 		double weight;

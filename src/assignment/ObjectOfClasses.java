@@ -7,33 +7,46 @@ public class ObjectOfClasses
 	{
 		
 		Notebook nb = new Notebook();
+		
+		Notebook.colour = "Red";
+		
 		nb.name= "Navneet";
 		nb.length= 12;
 		nb.pages=150;
 		nb.size="A4";
-		nb.colour= "Blue";
+		//nb.colour= "Blue";
+		
+		Notebook nb1 = new Notebook();
+		//nb1.colour= "Blue";
+		
 		
 		nb.toWrite("Notebook is used to write notes.");
 		System.out.println("Notebook Length = "+nb.length);
 		System.out.println("Notebook Pages = "+nb.pages);
 		System.out.println("Notebook Size = "+nb.size);
-		System.out.println("Notebook Colour = "+nb.colour);
-		
+		System.out.println("Notebook Colour = "+Notebook.colour);
+		System.out.println("Notebook Colour nb1 = "+nb1.colour);
 		System.out.println("*********************************** ");
 		
 		
 		
 		Sofa sf=new Sofa();
-		sf.capacity=3;
+		
+		Sofa.capacity=4;  //  for static variable
+		
+		//sf.capacity=3;
 		sf.name="Wooden";
-		sf.length=3.5;
+		sf.length=4.5;
 		sf.colour="Red";
+		
+		Sofa sf1=new Sofa();
+		
 		
 		sf.toSeat("Sofa is used to sit");
 		System.out.println("Sofa Colour = "+sf.colour);
 		System.out.println("Sofa Length = "+sf.length);
-		System.out.println("Sofa Capacity = "+sf.capacity);
-		
+		System.out.println("Sofa Capacity = "+Sofa.capacity);
+		System.out.println("Sofa Capacity = "+sf1.capacity);
 		System.out.println("*********************************** ");
 		
 		
@@ -45,8 +58,11 @@ public class ObjectOfClasses
 		ty.weight=50;
 		ty.colour="Pink";
 		
+	    int add=Toys.sum(10, 20);   //static method called
+		System.out.println("Addition ="+add);
+		 
+		Toys.toPlay("toy is used to play.");   //static method called
 		
-		ty.toPlay("toy is used play.");
 		System.out.println("Toy Colour = "+ty.colour);
 		System.out.println("Toy Length = "+ty.weight);
 		System.out.println("Toy Capacity = "+ty.material);

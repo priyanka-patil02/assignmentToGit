@@ -6,7 +6,7 @@ package assignment;
 	double length;
 	int pages;
 	String size;
-	String colour;
+	static String colour;  //use of static
 		
 	void toWrite(String content)
 	{
@@ -19,7 +19,7 @@ package assignment;
 	{
 	    String name;
 		double length;
-		double capacity;
+		static int capacity;
 		String colour;
 		String material;
 		
@@ -36,11 +36,18 @@ package assignment;
 		String material;
 		double weight;
 		String colour;
+		 
 		
-		
-		void toPlay(String content)
+		static int sum(int i,int j)  // declared as static method
 		{
-			System.out.println(name+" - "+content);
+			int k=i+j;
+			return k;
+		}
+		
+		static void toPlay(String content)    // declared as static method
+		{
+			//System.out.println(name+" - "+content);
+			System.out.println(content);       // void is static thats why no return value 
 		}
 		
 	}

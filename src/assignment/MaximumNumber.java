@@ -9,6 +9,8 @@ public class MaximumNumber
 	{
 		Scanner scan = new Scanner(System.in);
 		
+	
+		
 		System.out.println("Enter 3 numbers : ");
         int a = scan.nextInt();
         int b = scan.nextInt();
